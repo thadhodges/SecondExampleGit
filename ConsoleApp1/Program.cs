@@ -6,7 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("What's Poppin'");
+            var poppin = Console.ReadLine();
+            Console.WriteLine($"{poppin}?Great to hear, have a nice day?");
+
         }
     }
 }
